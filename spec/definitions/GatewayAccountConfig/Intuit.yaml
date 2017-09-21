@@ -16,11 +16,7 @@ allOf:
           clientSecret:
             type: string
             description: The Intuit client_secret key
-          redirectUrl:
-            type: string
-            description: Intuit Gateway redirect url for OAuth2 process
-            format: url
+            format: password
         required:
           - "clientId"
           - "clientSecret"
-          - "redirectUrl"
